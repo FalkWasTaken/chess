@@ -1,0 +1,30 @@
+.sidebar {
+    margin: 4rem;
+    background: var(--bg2);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar > button {
+    font-size: large;
+    padding: .5rem;
+    border: none;
+    background: var(--highlight-color);
+    border-radius: var(--border-radius);
+    color: inherit;
+    margin: .3rem;
+}
+
+.sidebar > button:hover {
+    background: var(--highlight-active);
+    cursor: pointer;
+}
+
+.sidebar > div {
+    padding: .5rem;
+    color: inherit;
+    font-size: large;
+}
